@@ -12,9 +12,7 @@ import City from "../components/City";
 export default {
   name: "AddCity",
   props: ["cities", "edit"],
-  created() {
-    console.log(this.cities);
-  },
+  created() {},
   components: {
     City,
   },
