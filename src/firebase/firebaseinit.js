@@ -2,7 +2,7 @@ import firebase from "firebase/app";
 import "firebase/firestore";
 
 var firebaseConfig = {
-  apiKey: "AIzaSyA7Lp31kKB6hdxDi3BtLlOL16pZy7waXQc",
+  apiKey: "AIzaSyBex2Vax5v79NGMYRDjFVDeFZ1kA20_AoI",
   authDomain: "weatherappyt.firebaseapp.com",
   projectId: "weatherappyt",
   storageBucket: "weatherappyt.appspot.com",
