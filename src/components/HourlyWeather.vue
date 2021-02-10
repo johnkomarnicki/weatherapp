@@ -16,12 +16,9 @@ export default {
   components: {
     HourlyTemp,
   },
-  created() {
-    console.log(this.forecast);
-  },
   computed: {
     filteredList() {
-      return this.forecast.hourly.slice(0, 23);
+      return this.forecast.hourly.slice(5, 48);
     },
   },
 };
