@@ -16,9 +16,6 @@ export default {
   components: {
     DailyForecast,
   },
-  created() {
-    console.log(this.forecast);
-  },
   computed: {
     filteredList() {
       return this.forecast.daily.slice(1, 8);

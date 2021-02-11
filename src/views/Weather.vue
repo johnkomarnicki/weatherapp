@@ -8,6 +8,7 @@
         <CurrentWeather :isDay="isDay" :isNight="isNight" :currentWeather="currentWeather" />
         <HourlyWeather :forecast="forecast" />
         <WeeklyForecast :forecast="forecast" />
+        <AdditionalInfo :currentWeather="currentWeather" />
       </div>
     </div>
   </div>
@@ -19,6 +20,7 @@ import db from "../firebase/firebaseinit";
 import CurrentWeather from "../components/CurrentWeather";
 import HourlyWeather from "../components/HourlyWeather";
 import WeeklyForecast from "../components/WeeklyForecast";
+import AdditionalInfo from "../components/AdditionalInfo";
 export default {
   name: "Weather",
   props: ["APIkey", "isDay", "isNight"],
@@ -26,6 +28,7 @@ export default {
     CurrentWeather,
     HourlyWeather,
     WeeklyForecast,
+    AdditionalInfo,
   },
   data() {
     return {
