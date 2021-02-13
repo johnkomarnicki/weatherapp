@@ -18,7 +18,7 @@ export default {
   },
   computed: {
     filteredList() {
-      return this.forecast.hourly.slice(3, 48);
+      return this.forecast.hourly.slice(1, 25);
     },
   },
 };
